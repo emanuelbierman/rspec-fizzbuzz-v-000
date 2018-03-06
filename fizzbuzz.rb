@@ -3,16 +3,13 @@
 def fizzbuzz(num)
   num = num.to_i
   if num % 3 == 0
-    "Fizz"
-  end
+  return "Fizz"
   elsif num % 5 == 0
-    "Buzz"
-  end
+  return "Buzz"
   elsif (num % 3 == 0) && (num % 5 == 0)
-    "Fizzbuzz"
-  end
+  return "Fizzbuzz"
   else
-    nil
+  return nil
   end
   # binding.pry
 end
