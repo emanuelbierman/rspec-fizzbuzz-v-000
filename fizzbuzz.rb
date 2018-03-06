@@ -3,7 +3,7 @@ require 'pry'
 def fizzbuzz(num)
   num = num.to_i
   if num % 3 == 0
-  return "Fizz"
+  return "fizz"
   elsif num % 5 == 0
   return "Buzz"
   binding.pry
